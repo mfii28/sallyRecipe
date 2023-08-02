@@ -1,13 +1,289 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ @import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+h1{
+   font-family: 'Sigmar', cursive;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h4{
+  font-family: 'Roboto', sans-serif;
+}
+
+
+ input{
+    outline: none;
+ }
+
+ figure.snip1104 {
+   
+   position: relative;
+   overflow: hidden;
+   margin: 10px;
+   min-width: 220px;
+   max-width: 310px;
+   max-height: 220px;
+   border-radius: 15px 15px;
+   width: 100%;
+   background: #000000;
+   color: #ffffff;
+   text-align: center;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+ }
+
+ figure.snip1104 * {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   -webkit-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+ }
+ 
+ figure.snip1104 img {
+   max-width: 100%;
+   position: relative;
+   opacity: 0.4;
+ }
+ 
+ figure.snip1104 figcaption {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+ }
+ 
+ figure.snip1104 h2 {
+   position: absolute;
+   left: 40px;
+   right: 40px;
+   display: inline-block;
+   background: #000000;
+   -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+   transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+   padding: 12px 5px;
+   margin: 0;
+   top: 50%;
+   text-transform: uppercase;
+   font-weight: 400;
+ }
+ 
+ figure.snip1104 h2 span {
+   font-weight: 800;
+ }
+ 
+ figure.snip1104:before {
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   content: '';
+   background: #ffffff;
+   position: absolute;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   -webkit-transform: rotate(110deg) translateY(-50%);
+   transform: rotate(110deg) translateY(-50%);
+ }
+ 
+ figure.snip1104 a {
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   position: absolute;
+   z-index: 1;
+ }
+ 
+
+
+
+
+
+
+
+ 
+ figure.snip1106 {
+   
+   position: relative;
+   overflow: hidden;
+   margin: 10px;
+   min-width: 480px;
+   max-width: 440px;
+   max-height: 220px;
+   border-radius: 15px 15px;
+   width: 100%;
+   background: #000000;
+   color: #ffffff;
+   text-align: center;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+ }
+
+ figure.snip1106 * {
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+   -webkit-transition: all 0.4s ease-in-out;
+   transition: all 0.4s ease-in-out;
+ }
+ 
+ figure.snip1106 img {
+   max-width: 100%;
+   position: relative;
+   opacity: 0.4;
+ }
+ 
+ figure.snip1106 figcaption {
+   position: absolute;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+ }
+ 
+ figure.snip1106 h2 {
+   position: absolute;
+   left: 40px;
+   right: 40px;
+   display: inline-block;
+   background: #000000;
+   -webkit-transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+   transform: skew(-10deg) rotate(-10deg) translate(0, -50%);
+   padding: 12px 5px;
+   margin: 0;
+   top: 50%;
+   text-transform: uppercase;
+   font-weight: 400;
+ }
+ 
+ figure.snip1106 h2 span {
+   font-weight: 800;
+ }
+ 
+ figure.snip1106:before {
+   height: 100%;
+   width: 100%;
+   top: 0;
+   left: 0;
+   content: '';
+   background: #ffffff;
+   position: absolute;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   -webkit-transform: rotate(110deg) translateY(-50%);
+   transform: rotate(110deg) translateY(-50%);
+ }
+ 
+ figure.snip1106 a {
+   left: 0;
+   right: 0;
+   top: 0;
+   bottom: 0;
+   position: absolute;
+   z-index: 1;
+ }
+ 
+
+
+
+
+
+
+
+
+ 
+
+ 
+ figure.snip1104:hover img,
+ figure.snip1104.hover img ,
+ figure.snip1106:hover img,
+ figure.snip1106.hover img
+ {
+   opacity: 1;
+   -webkit-transform: scale(1.1);
+   transform: scale(1.1);
+ }
+ 
+ figure.snip1104:hover h2,
+ figure.snip1104.hover h2 ,
+ figure.snip1106:hover h2,
+ figure.snip1106.hover h2 
+ {
+   -webkit-transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+   transform: skew(-10deg) rotate(-10deg) translate(-150%, -50%);
+ }
+ 
+ figure.snip1104:hover:before,
+ figure.snip1104.hover:before ,
+ figure.snip1106:hover:before,
+ figure.snip1106.hover:before {
+   -webkit-transform: rotate(110deg) translateY(-150%);
+   transform: rotate(110deg) translateY(-150%);
+ }
+ 
+ 
+
+ 
+/* INFO SECTION banner design */
+.info {
+  display: flex;
+/*   flex-wrap: wrap; */
+  justify-content: space-evenly;
+  align-items: center;
+/*   margin-top: 3px; */
+  background-color: #f9f9f9;
+/*   padding:  80px 50px 0 50px; */
+  height: 100vh;
+}
+.banner {
+/*   padding-top: 20px; */
+  text-align: center;
+/*   flex: 2; */
+}
+.banner h1 {
+  font-size: 7rem;
+  font-weight: 900;
+  text-align: center;
+  display: inline;
+/*   margin: 0; */
+}
+.banner h1::before {
+  content:"I AM";
+  vertical-align: top;
+  font-size: 1.2rem;
+  font-weight: 400;
+  display: inline-block;
+  background-color: #e82121;
+  color: #e6c1d0;
+  margin-right: 5px;
+  padding: 1px 5px;
+  transform: rotate(-30deg);
+}
+.banner span {
+  display: block;
+/*   position: relative;
+  bottom: 15px; */
+  font-size: 4rem;
+  font-weight: 400;
+  color: gray;
+}
+/* INFO SECTION card-info design */
+.card {
+/*   flex: 1; */
+  flex-basis: 400px;
+}
+.card img {
+  width: 85px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: #cccccc 0px 0px 7px 2px;;
+}
+.bio{
+  text-align: justify;
+  line-height: 1.5;
+  color:#2d2d2d;
+}
+ 
+ 
+.active{
+  background: gray;
 }
